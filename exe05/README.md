@@ -4,7 +4,7 @@ Faça um algoritmo para ler quatro valores referentes a quatro notas escolares d
 
 ## Entrada
 
-A entrada padrão deve receber dois números inteiros.
+A entrada padrão deve receber quatro números inteiros.
 
 ```
 6 5 7 8

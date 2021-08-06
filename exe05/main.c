@@ -1,8 +1,15 @@
 #include <stdio.h>
 
 int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
+   float n1, n2, n3, n4, media;
+   scanf("%f %f %f %f", &n1, &n2, &n3, &n4);
+   media = (n1+n2+n3+n4)/4;
+   printf("NOTA = %0.2f", media);
+   if(media > 6){
+     printf("(APROVADO)\n");
+   }
+   else{
+     printf("(REPROVADO)\n");
+   }
    return 0;
 }
