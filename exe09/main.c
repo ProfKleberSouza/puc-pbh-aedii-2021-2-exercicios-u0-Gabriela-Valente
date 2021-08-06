@@ -1,8 +1,13 @@
 #include <stdio.h>
 
+struct Aluno{
+  char nome[50];
+  float nota;
+};
+struct Aluno aluno;
 int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
-   return 0;
+  int n;
+  
+
+  return 0;
 }
